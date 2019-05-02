@@ -33,7 +33,7 @@ class ChoboPowerUtilFrame(wx.Frame):
 
 def main(): 
     app = wx.App()
-    frm = ChoboPowerUtilFrame(None, title=SW_TITLE, size=(600,600))
+    frm = ChoboPowerUtilFrame(None, title=SW_TITLE, size=(320,600))
     frm.Show()
     app.MainLoop()
 
